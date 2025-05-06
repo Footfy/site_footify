@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  background-color: #d9e4e5;
+}
+
+.topo {
+  background-color: #3a7d7c;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  color: #fff;
+  margin: 0;
+  
+}
+
+#toggleFormBtn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+  position: relative;
+  right: -40%;
+  transform: translateX(-50%);
+  top: 50%;
+  
+}
+
+#toggleFormBtn:hover {
+  background-color: #444;
+}
+
+.chamada {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 300px;
+  padding: 0 50px;
+}
+
+.mensagem {
+  background-color: #002533;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 240px;
+}
+
+.mensagem h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.mensagem p {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.logo-central {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 250px; 
+  margin-top: -280px;
+  margin-bottom: 20px;
+}
+
+.logo-central img {
+  max-width: 300px;
+  height: auto;
+}
+
+.recomendacao {
+  background-color: #003241;
+  padding: 40px;
+  border-radius: 20px;
+  color: white;
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recomendacao input,
+.recomendacao textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.recomendacao button {
+  background-color: #000;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.recomendacao button:hover {
+  background-color: #444;
+}
+
+.hidden {
+  display: none;
+}

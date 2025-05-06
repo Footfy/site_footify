@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Footify</title>
+  <link rel="stylesheet" href="style.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="topo">
+    <h1 class="logo">Footify</h1>
+    <button id="toggleFormBtn">🔍 O que você está procurando?</button>
+  </header>
+
+  <main>
+    <section class="chamada">
+        <div class="mensagem">
+          <h2>Calçado ideal para você!</h2>
+          <p>Na Footify, utilizamos tecnologia avançada para tornar sua experiência de compra muito mais simples e eficiente.</p>
+          <p>Com a nossa pesquisa inteligente, você encontra exatamente o que procura: Modelos que combinam com seu estilo, suas necessidades e seu dia a dia.</p>
+        </div>
+      </section>
+      
+      <section class="logo-central">
+        <img src="https://i.imgur.com/VFEGdw3.png" alt="Logo Footify">
+      </section>
+      
+
+    <section class="recomendacao hidden" id="form-tenis">
+      <h2>Encontre seu calçado ideal</h2>
+
+      <label>TIPO:
+        <input type="text" placeholder="Tênis/Sapato..." />
+      </label>
+
+      <label>PREÇO:
+        <input type="text" placeholder="R$ 100,00/R$ 200,00..." />
+      </label>
+
+      <label>COR:
+        <input type="text" placeholder="Azul/Preto..." />
+      </label>
+
+      <label>
+        <strong>FAÇA UMA BREVE DESCRIÇÃO DO CALÇADO IDEAL PARA A SUA NECESSIDADE:</strong><br/>
+        <textarea id="descricao" rows="6" placeholder="Ex: Estou procurando um tênis casual, confortável e estiloso para usar no dia a dia, especialmente para ir ao trabalho e sair com amigos. Prefiro cores neutras como branco ou bege, e gosto de modelos com design moderno, mas discretos. Ah, e seria ótimo se combinasse com calça jeans e looks mais urbanos..."></textarea>
+      </label>
+
+      <button id="submitBtn">Buscar com inteligência artificial</button>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
