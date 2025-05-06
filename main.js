@@ -1,4 +1,4 @@
-// Alternar visibilidade do formulário
+// Visibilidade do formulário
 const toggleBtn = document.getElementById("toggleFormBtn");
 const formSection = document.getElementById("form-tenis");
 
@@ -6,7 +6,7 @@ toggleBtn.addEventListener("click", () => {
   formSection.classList.toggle("hidden");
 });
 
-// Submissão do formulário e envio ao backend
+// Envio ao backend
 const submitBtn = document.getElementById("submitBtn");
 
 submitBtn.addEventListener("click", async (e) => {
